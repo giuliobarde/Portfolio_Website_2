@@ -58,18 +58,41 @@ header .logo {
     background: none;
     border: none;
     color: white;
+    transition: color 0.2s ease-in-out;
 }
 
-/* Ensure Dropdown is Hidden by Default */
+.menu-toggle:hover {
+    color: #00adb5;
+}
+
+/* Dropdown Menu - Rectangular Box with One Field Per Line */
 .dropdown-menu {
     display: none;
     position: absolute;
     top: 70px;
     right: 40px;
-    background: rgba(0, 0, 0, 0.9);
-    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.95);
+    border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 200px;  /* Set a fixed width for a rectangular look */
+    padding: 10px 0; /* Adds space inside the box */
+}
+
+/* Each Dropdown Item (One Per Line) */
+.dropdown-menu a {
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.2s ease-in-out;
+    text-align: left;
+}
+
+/* Hover Effect */
+.dropdown-menu a:hover {
+    color: #00adb5;
 }
 
 /* Show Hamburger Menu on Small Screens */
