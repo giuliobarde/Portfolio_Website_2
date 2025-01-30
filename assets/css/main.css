@@ -225,7 +225,7 @@ header .logo:hover {
     transform: scale(1.05);
 }
 
-/* 🖼 Full-Screen Modal */
+/* Full-Screen Modal */
 .project-modal {
     display: none;
     position: fixed;
@@ -242,7 +242,7 @@ header .logo:hover {
 /* Modal Content */
 .modal-content {
     background: #222831;
-    padding: 15px; /* Reduced padding to match the project card */
+    padding: 15px;
     border-radius: 10px;
     text-align: center;
     width: 80%;

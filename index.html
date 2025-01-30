@@ -38,6 +38,7 @@
             <h1 class="fade-in">Hey There! 👋</h1>
             <p class="fade-in delay">I'm <span class="highlight">Giulio</span>, a <span class="highlight">Data Science</span> student based in NY.</p>
             <p class="fade-in delay-2">🚀 Passionate about AI, Web Development, and Big Data!</p>
+            <a href="Website_Portfolio_1/html5up-astral/index.html">prev</a>
         </div>
     </div>
 
@@ -51,7 +52,12 @@
         <p>🎨 Explore my work in Web Development, AI, and more!</p>
     
         <div class="projects-container">
-            <div class="project-card" onclick="expandProject('chatbot')">
+            <div class="project-card" onclick="expandProject('portfolio-2')">
+                <h3>💼 Portfolio Website 2</h3>
+                <p>Pantry management app with AI-based recipe generation and item tracking.</p>
+            </div>
+
+            <div class="project-card" onclick="expandProject('chatbot-rmp')">
                 <h3>🤖 AI Chatbot: Rate My Professor</h3>
                 <p>AI-powered chatbot for professor-related queries, using RAG with GPT-3.5-turbo.</p>
             </div>
@@ -60,15 +66,45 @@
                 <h3>📝 AI Flashcard Generator</h3>
                 <p>Flashcard generator using GPT-3.5-turbo with Firebase and Stripe integration.</p>
             </div>
+
+            <div class="project-card" onclick="expandProject('chatbot-usa')">
+                <h3>🤖 AI Chatbot: Customer Support</h3>
+                <p>AI-powered chatbot for United States related questions, using RAG with GPT-3.5-turbo.</p>
+            </div>
     
             <div class="project-card" onclick="expandProject('pantry')">
                 <h3>🥘 AI Pantry Tracker</h3>
+                <p>Pantry management app with AI-based recipe generation and item tracking.</p>
+            </div>
+
+            <div class="project-card" onclick="expandProject('portfolio-1')">
+                <h3>💼 Portfolio Website 1</h3>
                 <p>Pantry management app with AI-based recipe generation and item tracking.</p>
             </div>
     
             <div class="project-card" onclick="expandProject('chess')">
                 <h3>♟ Chess App</h3>
                 <p>React and TypeScript-based chess game with move validation.</p>
+            </div>
+
+            <div class="project-card" onclick="expandProject('chess')">
+                <h3>🖥️ HTTP-Server</h3>
+                <p>Followed a course on CodeCrafters on how to develop an HTTP-Server</p>
+            </div>
+
+            <div class="project-card" onclick="expandProject('chess')">
+                <h3>💰 Budgetting Tool</h3>
+                <p>Followed a course on CodeCrafters on how to develop an HTTP-Server</p>
+            </div>
+
+            <div class="project-card" onclick="expandProject('chess')">
+                <h3>📚 Text Processing</h3>
+                <p>Followed a course on CodeCrafters on how to develop an HTTP-Server</p>
+            </div>
+
+            <div class="project-card" onclick="expandProject('chess')">
+                <h3>👟 Sneakerhead Application</h3>
+                <p>Followed a course on CodeCrafters on how to develop an HTTP-Server</p>
             </div>
         </div>
     </div>
@@ -78,6 +114,7 @@
         <div class="modal-content">
             <span class="close-btn" onclick="closeProject()">&times;</span>
             <h2 id="modal-title"></h2>
+            <p id="modal-date"></p>
             <p id="modal-description"></p>
             <a id="modal-link" href="#" target="_blank">🔗 View Project</a>
         </div>
