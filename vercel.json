@@ -1,7 +1,0 @@
-{
-    "cleanUrls": true,
-    "rewrites": [
-      { "source": "/Website_Portfolio_1/(.*)", "destination": "/Website_Portfolio_1/$1" }
-    ]
-  }
-  
