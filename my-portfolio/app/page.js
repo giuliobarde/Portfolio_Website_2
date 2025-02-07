@@ -2,6 +2,8 @@
 
 import Head from "next/head";
 import { useEffect, useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   const [modalData, setModalData] = useState(null);
@@ -160,7 +162,7 @@ export default function Home() {
             setIsMenuOpen(!isMenuOpen);
           }}
         >
-          <i className="fas fa-bars"></i>
+          <FontAwesomeIcon icon={faBars} />
         </button>
         <nav className={`nav-links ${isMenuOpen ? "show" : ""}`}>
           <a href="#about">👨‍💻 About</a>
@@ -259,7 +261,7 @@ export default function Home() {
       </div>
 
       <footer className="footer">
-        <p>🔥 v 1.0.0 | &copy; 2025 Giulio Bardelli</p>
+        <p>🔥 v 2.2.0 | &copy; 2025 Giulio Bardelli</p>
         <p>
           <a href="#">⬆️ Back to top</a>
         </p>
